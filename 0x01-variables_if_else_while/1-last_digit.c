@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - This program will assign a random number to the variable n and check its last digit
+ * main - This program will assign a random number to the variable n.
  *
  * Return: 0
  */
@@ -14,7 +14,6 @@ int main(void)
         /* seed the random number generator */
         srand(time(0));
 
-        /* generate a random number between -RAND_MAX/2 and RAND_MAX/2 */
         n = rand() - RAND_MAX / 2;
 
         /* check if the last digit is greater than 5 */
