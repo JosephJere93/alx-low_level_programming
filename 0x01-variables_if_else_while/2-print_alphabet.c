@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-    const char alp[] = "abcdefghijklmnopqrstuvwxyz";
-    int i;
+	const char alp[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-    for (i = 0; i < sizeof(alp); i++)
-    {
-        putchar(alp[i]);
-    }
-    putchar('\n');
-
-    return (0);
+	for (i = 0; i < sizeof(alp); i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }
