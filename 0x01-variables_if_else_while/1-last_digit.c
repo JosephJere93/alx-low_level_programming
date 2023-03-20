@@ -10,7 +10,6 @@
 int main(void)
 {
 	int n;
-	
 	/* seed the random number generator */
 	srand(time(0));
 
