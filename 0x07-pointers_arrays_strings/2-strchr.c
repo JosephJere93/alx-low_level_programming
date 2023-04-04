@@ -1,5 +1,9 @@
+#include "main.h"
+#include <stdio.h>
+#include <stddef.h>
+
 /**
- * Entry point
+ * `Entry point
  * @s: input
  * @c: input
  * Return: pointer to the first occurrence of the character c in the string s,
