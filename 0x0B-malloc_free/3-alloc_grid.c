@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unstid.h>
+#include <stdlib.h>
 
 /*
  * 3-alloc_grid.c - nested loop  for grid
