@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /*
- * alloc_grid.c - nested loop  for grid
+ * alloc_grid.c - a function that returns a pointer to a 2 dimensional array of integers.
+ *
  * @width: W input
  * @height: H input
  * Return: pointer to 2 dimmension array
