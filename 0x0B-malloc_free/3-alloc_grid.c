@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /*
- * alloc_grid.c - a function that returns a pointer to a 2 dimensional array of integers.
+ * alloc_grid.c - a function that returns a pointer to a 2 dimensional array.
  *
- * @width: W input
- * @height: H input
+ * @width: Width input
+ * @height: Height input
  * Return: pointer to 2 dimmension array
  *
  */
