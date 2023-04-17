@@ -31,15 +31,15 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
 
-	if (nmeb == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	ptr = malloc(size * nmeb);
+	ptr = malloc(size * nmemb);
 
 	if (ptr == NULL)
 		return (NULL);
 
-	_memtest(ptr, 0, nmeb * size);
+	_memtest(ptr, 0, nmemb * size);
 
 	return (ptr);
 }
