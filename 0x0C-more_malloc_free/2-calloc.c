@@ -21,6 +21,13 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 
+/**
+ * *_calloc - allocates memory
+ * @nmemb: number of elements
+ * @size: size of elements
+ * Return: pointer to memory
+ */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
